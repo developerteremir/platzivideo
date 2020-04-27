@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, NavDropdown  } from "react-bootstrap";
-import logo from '../assets/static/logo-platzi-video-BW2.png'
-import userIcon from '../assets/static/user-icon.png';
+
 
 const Header = () => {
 	return (
@@ -10,8 +9,9 @@ const Header = () => {
 		<Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
 			  <Navbar.Brand href="#home">
 			      <img
-			        src={logo}
-			        width="150"
+			        src="../assets/images/logo-platzi-video.png"
+			        width="30"
+			        height="30"
 			        className="d-inline-block align-top"
 			        alt="Logo"
 			      />

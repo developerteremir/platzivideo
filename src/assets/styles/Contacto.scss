@@ -1,0 +1,76 @@
+#tagContacto {
+	background: url(../static/message.jpg) no-repeat bottom right;
+}
+
+.text-gray{
+	color: #f1f1f8;
+}
+
+.w-10{
+	width: 10% !important;
+}
+
+.line-br{
+	border-top: 1px dashed white;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+ul.social-network li {
+	display: block;
+	margin: 0 5px 10px;
+}
+.social-network a.icoMail:hover {
+	background-color: #00c9db;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 60px;
+	height: 60px;
+	font-size:20px;
+  	background-color: #f1f1f8;
+}
+.social-circle li svg {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.social-circle li a:hover svg, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 3.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.8s;
+
+}
+.social-circle svg {
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.bg-gray{
+	background: #2f2c3d;
+}
+
+.fondo-servicio{
+	background: url(../static/shape.svg) no-repeat bottom right;
+}
